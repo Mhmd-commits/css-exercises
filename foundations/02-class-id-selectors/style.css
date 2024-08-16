@@ -1,29 +1,30 @@
-.Num1{
+.odd{
     background-color: lightpink;
-    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
 
 
 }
+.adjust-font-size {
+    font-size:  24px;
+}
 
-#Num2{
+#two{
     color: blue;
     font-size: 36px;
 
 }
-.Num3{
-    background-color: lightpink;
-    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
-    font-size:  24px;
+/*
+    In the id selector 'four' below, we could have also
+    added a rule to set the font size to 24px.
 
-}
-#Num4{
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+#four{
     background-color: lightgreen;
     font-size:  24px;
     font-weight: bold;
-
-}
-.Num5{
-    background-color: lightpink;
-    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
 
 }
